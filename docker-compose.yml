@@ -15,7 +15,6 @@ services:
       - CATALINA_CONNECTOR_PROXYNAME=wiki.info.baiwangjinfu.com
       - CATALINA_CONNECTOR_PROXYPORT=443
       - CATALINA_CONNECTOR_SCHEME=https
-      - ATALINA_CONNECTOR_SECURE=true
     networks:
       - webnet
     links:
