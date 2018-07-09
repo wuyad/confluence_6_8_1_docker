@@ -2,7 +2,7 @@ version: "3"
 services:
   confluence:
     container_name: confluence
-    image: localhost:5000/confluence:6.8.1
+    image: confluence:6.8.1
     depends_on:
       - confluence-mysql
     volumes:
