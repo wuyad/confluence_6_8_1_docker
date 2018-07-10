@@ -27,7 +27,7 @@ services:
       MYSQL_USER: confluence
       MYSQL_PASSWORD: confluence
       TZ: Asia/Shanghai
-    image: mysql:latest
+    image: mysql:5.7
     volumes:
       - ~/data/confluence/db:/var/lib/mysql
       # - ~/data/confluence/my.cnf:/etc/mysql/conf.d/my.cnf
